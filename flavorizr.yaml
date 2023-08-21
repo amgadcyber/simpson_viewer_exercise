@@ -1,0 +1,23 @@
+# 
+# Defining Flavors 
+# TODO: Two variants of the app should be created
+# 
+flavors:
+  # First Variant
+  variant_one:
+    app:
+      name: "Simpsons Character Viewer"
+
+    android:
+      applicationId: "com.sample.simpsonsviewer"  
+    ios:
+      bundleId: "com.sample.simpsonsviewer"
+  # Second Variant
+  variant_two:
+    app:
+      name: "The Wire Character Viewer"
+    
+    android:
+      applicationId: "com.sample.wireviewer"
+    ios:
+      bundleId: "com.sample.wireviewer"
